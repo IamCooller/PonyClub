@@ -1,0 +1,66 @@
+.contacts{
+    background: #C3A37A;
+    color: #ffffff;
+    
+}
+
+.contacts::before{
+    right: 2.5%;
+}
+
+.contacts h2{
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 44px;
+    text-align: center;
+}
+
+.contacts .container{
+    margin-top: 5rem;
+}
+
+.ponyMap-block h3{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 38px;
+    text-align: center;
+}
+
+.ponyMap-block p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 22px;
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.ponyMap-block a{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 31px;
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    position: relative;
+    text-decoration: none;
+}
+
+.ponyMap-block a::after {
+    position: absolute;
+    bottom: -15px;
+    left: 30px;
+    width: 60%;
+    border-top: 1px solid #ffffff;
+    content: "";
+    transform: translate(-7%, -50%);
+}
+
+.ponyMap-block a:hover{
+    text-decoration: none;
+  }
