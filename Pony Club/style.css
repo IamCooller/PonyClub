@@ -1,0 +1,69 @@
+@import url("assets/css/citeStyle/normilaze.css");
+@import url("assets/css/citeStyle/header.css");
+@import url("assets/css/citeStyle/about.css");
+@import url("assets/css/citeStyle/contacts.css");
+@import url("assets/css/citeStyle/portfolio.css");
+@import url("assets/css/fullpage/fullpage.min.css");
+@import url("assets/css/citeStyle/navbar.css");
+
+#fp-nav ul li a.active span{
+  background-color: #ffffff;
+  padding: 5px;
+}
+
+
+#fp-nav ul li a span {
+  background-color: rgba(4, 114, 199, 0);
+  border: 1px solid #ffffff;
+  border-radius: 0;
+  padding: 5px;
+  margin-right: 10px;
+}
+.fp-tooltip{
+  margin-right: 10px;
+  margin-top: 6px;
+}
+
+
+
+
+
+.displaynone{
+  display: none !important;
+}
+
+.displayblock{
+  display: block !important;
+}
+
+.close-menu{
+  position: relative;
+  right: -100vw !important;
+  -webkit-transition: all 0.3s ease-in;
+  display: none !important;
+}
+
+.show-menu{
+  position: relative;
+  left: 0 !important;
+  display: block;
+  -webkit-transition: all 0.3s ease-in;
+}
+
+.close-left{
+  position: relative;
+  left: -100vw !important;
+  -webkit-transition: all 0.3s ease-in;
+  display: none !important;
+}
+
+.close-top{
+  position: relative;
+  top: -100vw !important;
+  -webkit-transition: all 0.3s ease-in;
+}
+
+.trainers-action{
+  font-weight: 700;
+  font-size: 32px;
+}

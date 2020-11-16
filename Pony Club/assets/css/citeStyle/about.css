@@ -1,0 +1,231 @@
+.aboutUs{
+    background: url("../../img/TwoSection.png") no-repeat center;
+    background-size:100% 100%;
+    position: relative;
+    border-right: 10rem solid #C3A37A;
+    -webkit-box-shadow: inset 64px 0px 92px -11px rgba(61,39,10,1);
+    -moz-box-shadow: inset 64px 0px 92px -11px rgba(61,39,10,1);
+    box-shadow: inset 64px 0px 92px -11px rgba(61,39,10,1);
+}
+
+
+section::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -10.5%;
+    bottom: 60%;
+    border-right: 1px solid #fff;
+    z-index: 6;
+}
+
+.aboutUs-wrapper::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(195, 163, 122, 0.9);
+    z-index: 2;
+}
+
+.aboutUs-wrapper{
+    width: 100%;
+    position: relative;
+    z-index: 3;
+    color: #FFFFFF;
+}
+
+.aboutUs-wrapper_title h1{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    max-width: 393px;
+    padding-bottom: 1rem;
+    z-index: 999;
+    position: relative;
+    margin-top: 10px;
+}
+
+.aboutUs-wrapper p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    z-index: 999;
+    width: 110%;
+    position: relative;
+}
+
+.aboutUs-menu{
+    margin-top: 7rem;
+}
+
+.aboutUs-menu ul li{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 0.7rem;
+    position: relative;
+    -webkit-transition: all 0.2s ease-in;
+    width: 100%;
+    max-width: 150px;
+}
+
+.aboutUs-menu ul li:hover,
+.trainers ul li:hover{
+    font-weight: 700;
+    font-size: 32px;
+    text-decoration: none !important;
+}
+
+
+.aboutUs-menu ul li::before,
+.trainers ul p::before{
+    content: '';
+    width: 100%;
+    right: 150px;
+    border: 1px solid #FFFFFF;
+    position: absolute;
+    -webkit-transition: all 0.2s ease-in;
+}
+
+.trainers ul p::before{
+    right: 0;
+    position: relative;
+    margin-left: -7vw;
+    margin-right: 7px;
+}
+
+.aboutUs-menu ul li:hover::before{
+    width: 40%;
+    right: 38vw;
+    border: 2px solid #FFFFFF;
+}
+
+
+.trainers{
+    background: url("../../img/trans.png") no-repeat center;
+    background-size:100% 100%;
+    position: absolute !important;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    left: -100vw;
+    -webkit-transition: all 0.3s ease-in;
+    -webkit-box-shadow: inset 64px 0px 92px -11px rgba(61,39,10,1);
+    -moz-box-shadow: inset 64px 0px 92px -11px rgba(61,39,10,1);
+    box-shadow: inset 64px 0px 92px -11px rgba(61,39,10,1);
+}
+
+.trainers a:hover{
+    text-decoration: none;
+}
+
+.trainers ul li,
+.trainers ul p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 0.7rem;
+    position: relative;
+    -webkit-transition: all 0.2s ease-in;
+    text-decoration: none !important;
+  
+}
+
+.trainers ul p{
+    width: 100%;
+    max-width: 150px;
+}
+
+
+.trainers-all-wrapper{
+    background: rgba(195, 163, 122, 0.8);
+    height: 100vh;
+    padding-top: 20vh;
+    display: none;
+    left: -100vw;
+    position: relative;
+}
+
+.trainers-all-wrapper h2{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.trainers-all-wrapper p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.trainers-all-wrapper-option{
+    max-width: 540px;
+    padding-left: 3rem;
+    display: none;
+}
+
+
+.close-trainser-wrapper{
+    width: fit-content;
+    position: absolute;
+    right: 35px;
+    top: 35px;
+    cursor: pointer;
+}
+
+
+.trainers-all-menu{
+    position: relative;
+}
+
+.trainers-photo img,
+.trainers-photo-option{
+    height: 100%;
+}
+
+.trainers-photo{
+    position: relative;
+    bottom: -20px;
+}
+
+.close-trainers{
+    cursor: pointer;
+    padding-top: 4rem;
+}
+
+.close-trainers::before{
+    display: none;
+}
+
