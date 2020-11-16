@@ -215,6 +215,10 @@ section::before{
     height: 100%;
 }
 
+.trainers-photo-option{
+    display: none;
+}
+
 .trainers-photo{
     position: relative;
     bottom: -20px;

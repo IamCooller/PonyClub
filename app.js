@@ -76,11 +76,19 @@ const myFullpage = new fullpage('#fullpage', {
 $(document).ready(function() {
 	$("#menu").click(function() {
 	  $('.header-menu_open').addClass("show-menu");
+	  $('.aboutUs').addClass("displaynone");
+	  $('.contacts').addClass("displaynone");
+	  $('.portfolio').addClass("displaynone");
+	  $('#fp-nav').addClass("displaynone");
 	});
 
 	$(".close").click(function() {
-		$('.header-menu_open').removeClass("show-menu");
 		$('.header-menu_open').addClass("close-menu");
+		$('.header-menu_open').removeClass("show-menu");
+		$('.aboutUs').removeClass("displaynone");
+		$('.contacts').removeClass("displaynone");
+		$('.portfolio').removeClass("displaynone");
+		$('#fp-nav').removeClass("displaynone");
 	  });
 
 	  
@@ -89,6 +97,12 @@ $(document).ready(function() {
 		$('.aboutUs-content').removeClass("show-menu");
 		$('.trainers').removeClass("close-left");
 		$('.trainers').addClass("show-menu");
+
+		$('.header').addClass("displaynone");
+		$('.contacts').addClass("displaynone");
+		$('.portfolio').addClass("displaynone");
+		$('#fp-nav').addClass("displaynone");
+		$('.header-menu_top').addClass("displaynone");
 	  });
 	  
 	  $(".close-trainers").click(function() {
@@ -96,6 +110,12 @@ $(document).ready(function() {
 		$('.trainers').removeClass("show-menu");
 		$('.aboutUs-content').removeClass("close-left");
 		$('.aboutUs-content').addClass("show-menu");
+
+		$('.header').removeClass("displaynone");
+		$('.contacts').removeClass("displaynone");
+		$('.portfolio').removeClass("displaynone");
+		$('#fp-nav').removeClass("displaynone");
+		$('.header-menu_top').removeClass("displaynone");
 	  });
 
 		$(".trainers-Jana").click(function() {
