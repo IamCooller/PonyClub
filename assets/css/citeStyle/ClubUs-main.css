@@ -1,0 +1,156 @@
+.ClubUs-main{
+    background: url(../../img/depositphotos_81682170-stock-photo-herd-of-running-horses\ 1.png) no-repeat center;
+    height: 100vh;
+    background-size:100% 100%;
+    overflow: hidden;
+}
+
+.ClubUs-AboutUs{
+    height: 100vh !important;
+    position: relative;
+    overflow-y: hidden;
+    height: 100%;
+    display: flex;
+    width: 100%;
+}
+
+.header-ClubUs-additional{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    float: right;
+    position: relative;
+    top: 28vh;
+    right: 5vw;
+}
+
+.header-ClubUs-additional::after{
+    content: '';
+    width: 100%;
+    left: 120px;
+    top: 1.2rem;
+    border: 1px solid #FFFFFF;
+    position: absolute;
+    -webkit-transition: all 0.2s ease-in;
+}
+
+
+.ClubUs-AboutUs h1{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+}
+
+.ClubUs-AboutUs p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.ClubUs-AboutUs-title-blockOne{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 377px;
+    margin-left: 10rem;
+    min-width: 377px;
+}
+
+.ClubUs-AboutUs-photo-blockOne{
+    height: 100vh;
+    min-width: fit-content;
+}
+
+.ClubUs-AboutUs-photo-blockOne img{
+    height: 100vh;
+    width: 100%;
+    min-width: fit-content;
+}
+
+.swiper-slide{
+    display: flex;
+}
+
+.swiper-container-h{
+    max-width: 500px;
+max-height: 20rem;
+margin-top: 10rem;
+position: relative;
+}
+
+.swiper-pagination-bullet {
+    border-radius: 0;
+    border: 1px solid #FFFFFF;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #FFFFFF;
+    border-radius: 0;
+}
+
+#pp-nav.right {
+    bottom: 0;
+    right: 50%;
+    display: none;
+}
+
+#pp-nav.right ul{
+    display: flex;
+}
+
+.ClubUs-main-menu{
+    float: right;
+    position: relative;
+    width: 100%;
+    top: 20%;
+    padding-right: 5rem;
+    overflow: hidden;
+}
+
+.ClubUs-main-menu ul li{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 24px;
+    padding-bottom: 1rem;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.ClubUs-main-menu ul{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    float: right;
+    position: relative;
+}
+
+.ClubUs-main-menu ul::after{
+    content: '';
+    width: 100%;
+    left: 20vw;
+    top: 50%;
+    border: 1px solid #FFFFFF;
+    position: absolute;
+    -webkit-transition: all 0.2s ease-in;
+}
+
+#pagepiling{
+    display: none;
+  }
+  

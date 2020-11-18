@@ -1,10 +1,14 @@
+@import url("assets/css/fullpage/jquery.pagepiling.css");
+@import url("assets/css/fullpage/fullpage.min.css");
 @import url("assets/css/citeStyle/normilaze.css");
 @import url("assets/css/citeStyle/header.css");
 @import url("assets/css/citeStyle/about.css");
 @import url("assets/css/citeStyle/contacts.css");
+@import url("assets/css/citeStyle/ClubUs-main.css");
 @import url("assets/css/citeStyle/portfolio.css");
-@import url("assets/css/fullpage/fullpage.min.css");
 @import url("assets/css/citeStyle/navbar.css");
+
+
 
 #fp-nav ul li a.active span{
   background-color: #ffffff;
@@ -48,7 +52,7 @@ body{
 .show-menu{
   position: relative;
   left: 0 !important;
-  display: block;
+  display: block !important;
   -webkit-transition: all 0.3s ease-in;
 }
 

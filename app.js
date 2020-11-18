@@ -9,7 +9,6 @@ const myFullpage = new fullpage('#fullpage', {
 	showActiveTooltip: true,
 	slidesNavigation: true,
 	slidesNavPosition: 'bottom',
-
 	//Скроллинг
 	css3: true,
 	scrollingSpeed: 700,
@@ -23,16 +22,16 @@ const myFullpage = new fullpage('#fullpage', {
 	loopTop: false,
 	loopHorizontal: true,
 	continuousVertical: false,
-	continuousHorizontal: false,
-	scrollHorizontally: false,
+	continuousHorizontal: true,
+	scrollHorizontally: true,
 	interlockedSlides: false,
-	dragAndMove: false,
+	dragAndMove: true,
 	offsetSections: false,
 	resetSliders: false,
-	fadingEffect: false,
+	fadingEffect: 'sections',
 	normalScrollElements: '#element1, .element2',
-	scrollOverflow: false,
-	scrollOverflowReset: false,
+	scrollOverflow: true,
+	scrollOverflowReset: true,
 	scrollOverflowOptions: null,
 	touchSensitivity: 15,
 	bigSectionsDestination: null,
@@ -40,7 +39,7 @@ const myFullpage = new fullpage('#fullpage', {
 	//Доступ
 	keyboardScrolling: true,
 	animateAnchor: true,
-	recordHistory: true,
+	recordHistory: false,
 
 	//Дизайн
 	controlArrows: true,
@@ -73,6 +72,71 @@ const myFullpage = new fullpage('#fullpage', {
 	afterSlideLoad: function(section, origin, destination, direction){},
 	onSlideLeave: function(section, origin, destination, direction){}
 });
+
+
+
+$(document).ready(function() {
+	$('#pagepiling').pagepiling({
+	    menu: null,
+        direction: 'horizontal',
+        verticalCentered: false,
+        sectionsColor: [],
+        anchors: [],
+        scrollingSpeed: 700,
+        easing: 'linear',
+        loopBottom: false,
+        loopTop: false,
+        css3: true,
+       	normalScrollElements: null,
+        normalScrollElementTouchThreshold: 5,
+        touchSensitivity: 15,
+        keyboardScrolling: true,
+        sectionSelector: '.section',
+        animateAnchor: true,
+
+		//events
+		onLeave: function(index, nextIndex, direction){},
+		afterLoad: function(anchorLink, index){},
+		afterRender: function(){},
+	});
+});
+
+
+	 
+$("#ClubUs-open").click(function() {
+	$('#fullpage').addClass("close-left");
+	$('#fp-nav').addClass("close-left");
+	$('#pagepiling').addClass("show-menu");
+	$('#pp-nav.right').addClass("show-menu");
+
+  });
+  
+
+var mySwiper = new Swiper('.swiper-container', {
+	// Optional parameters
+	direction: 'horizontal',
+	loop: true,
+	mousewheel: true,
+  
+	// If we need pagination
+	pagination: {
+	  el: '.swiper-pagination',
+	},
+  
+	// And if we need scrollbar
+	scrollbar: {
+	  el: '.swiper-scrollbar',
+	},
+  })
+
+  var swiperH = new Swiper('.swiper-container-h', {
+	spaceBetween: 50,
+	pagination: {
+	  el: '.swiper-pagination-h',
+	  clickable: true,
+	},
+  });
+
 $(document).ready(function() {
 	$("#menu").click(function() {
 	  $('.header-menu_open').addClass("show-menu");
@@ -370,7 +434,12 @@ $(document).ready(function() {
 			$('.trainers-all-wrapper-Kata').removeClass("show-menu");
 		  });
 		  
-		  
+		 
+		 
+		 
+		 
+		 
+	
 
-
+		 
   });
