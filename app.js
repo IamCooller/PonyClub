@@ -106,7 +106,9 @@ var mySwiper = new Swiper('.swiper-container', {
 	direction: 'horizontal',
 	loop: true,
 	mousewheel: true,
-  
+	slidesPerView: 'auto',
+	freeMode: true,
+	grabCursor: true,
 	// If we need pagination
 	pagination: {
 	  el: '.swiper-pagination',
