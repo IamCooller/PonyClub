@@ -1,0 +1,46 @@
+.equipment-price h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+}
+
+.equipment-price span{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin-top: 1rem;
+}
+
+.equipment-price{
+    margin: 20vh auto;
+    width: fit-content;
+    position: relative;
+}
+
+.equipment-price p{
+    margin: 0;
+}
+
+.equipment-price p::after{
+    content: none;
+}
+
+.equipment-price::after{
+    content: '';
+    position: absolute;
+    height: 15vh;
+    bottom: 130px;
+    border-right: 1px solid #fff;
+    z-index: 6;
+    bottom: -20vh;
+    right: 50%;
+}

@@ -1,0 +1,34 @@
+footer{
+    display: flex !important;
+    padding: 0;
+}
+
+footer ul li{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    padding-bottom: 0.7rem;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+footer ul{
+    z-index: 3;
+    position: relative;
+    margin: 0 auto;
+    max-width: fit-content;
+    margin-top: 80%;
+}
+
+footer span{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    color: #FFFFFF;
+}

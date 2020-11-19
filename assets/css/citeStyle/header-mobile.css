@@ -1,0 +1,78 @@
+header{
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(../../img/mobile-header.png) no-repeat center;
+    background-size: 100% 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    -webkit-transition: all 0.3s ease-in;
+}
+
+header::after{
+    content: '';
+    position: absolute;
+    height: 10vh;
+    bottom: 130px;
+    border-right: 1px solid #fff;
+    z-index: 6;
+    bottom: 0;
+}
+
+
+header .header-mobile{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem;
+}
+
+header .inst-mobile{
+  height: fit-content;
+}
+
+header .menu-mobile{
+    height: fit-content;
+}
+
+header .menu-mobile button{
+    border: none;
+    background: none;
+}
+
+header h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+header ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 0;
+    margin-top: 20vh;
+}
+
+
+header ul li{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 0.7rem;
+}
+

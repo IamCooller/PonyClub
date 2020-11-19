@@ -74,7 +74,6 @@ const myFullpage = new fullpage('#fullpage', {
 });
 
 
-
 $(document).ready(function() {
 	$('#pagepiling').pagepiling({
 	    menu: null,
@@ -100,16 +99,6 @@ $(document).ready(function() {
 		afterRender: function(){},
 	});
 });
-
-
-	 
-$("#ClubUs-open").click(function() {
-	$('#fullpage').addClass("close-left");
-	$('#fp-nav').addClass("close-left");
-	$('#pagepiling').addClass("show-menu");
-	$('#pp-nav.right').addClass("show-menu");
-
-  });
   
 
 var mySwiper = new Swiper('.swiper-container', {
@@ -138,17 +127,21 @@ var mySwiper = new Swiper('.swiper-container', {
   });
 
 $(document).ready(function() {
+
+
 	$("#menu").click(function() {
 	  $('.header-menu_open').addClass("show-menu");
 	  $('.aboutUs').addClass("displaynone");
 	  $('.contacts').addClass("displaynone");
 	  $('.portfolio').addClass("displaynone");
 	  $('#fp-nav').addClass("displaynone");
+	  $('.header-menu_top ').addClass("displaynone");
 	});
 
 	$(".close").click(function() {
 		$('.header-menu_open').addClass("close-menu");
 		$('.header-menu_open').removeClass("show-menu");
+		$('.header-menu_top ').removeClass("displaynone");
 		$('.aboutUs').removeClass("displaynone");
 		$('.contacts').removeClass("displaynone");
 		$('.portfolio').removeClass("displaynone");
@@ -173,7 +166,6 @@ $(document).ready(function() {
 		$('.trainers').addClass("close-left");
 		$('.trainers').removeClass("show-menu");
 		$('.aboutUs-content').removeClass("close-left");
-		$('.aboutUs-content').addClass("show-menu");
 
 		$('.header').removeClass("displaynone");
 		$('.contacts').removeClass("displaynone");
@@ -434,12 +426,27 @@ $(document).ready(function() {
 			$('.trainers-all-wrapper-Kata').removeClass("show-menu");
 		  });
 		  
-		 
-		 
-		 
-		 
-		 
-	
 
-		 
+
+		  $(".menu-mobile-button").click(function() {
+			$('.addressee').addClass("show-menu");
+			$('.header').addClass("displaynone");
+		  });
+	  
+		  $(".close").click(function() {
+			  $('.header-menu_open').addClass("close-menu");
+			  $('.header-menu_open').removeClass("show-menu");
+			  $('.header-menu_top ').removeClass("displaynone");
+			  $('.aboutUs').removeClass("displaynone");
+			  $('.contacts').removeClass("displaynone");
+			  $('.portfolio').removeClass("displaynone");
+			  $('#fp-nav').removeClass("displaynone");
+			});
   });
+
+  $(document).ready(function(){
+	if(screen.width <= 800){
+		location.href='mobile/index.html';
+	 }
+  });
+

@@ -1,0 +1,79 @@
+.addresses{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    left: -100vh;
+    position: relative;
+    -webkit-transition: all 1s ease-in;
+}
+
+.addresses span{
+    text-align: left;
+    width: 100%;
+    margin-top: 10vh;
+    padding-left: 20vw;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.addresses span::before{
+    content: '';
+    position: absolute;
+    border-bottom: 3px solid #FFFFFF;
+    width: 24vw;
+    left: -30px;
+    top: 14px;
+}
+
+.addresses p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin: 0 auto;
+    margin-top: 15vh;
+    max-width: 300px;
+}
+
+.addresses a{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    padding-bottom: 3rem;
+    position: relative;
+}
+
+.addresses a::after{
+    content: '';
+    position: absolute;
+    border-bottom: 1px solid #FFFFFF;
+    width: 100%;
+    bottom: 30px;
+}
+
+.addresses-href {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.addresses .back a::after{
+    content: none;
+}

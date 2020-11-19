@@ -2,22 +2,12 @@
     background: url("../../img/TwoSection.png") no-repeat center;
     background-size:100% 100%;
     position: relative;
-    border-right: 10rem solid #C3A37A;
-    -webkit-box-shadow: inset 64px 0px 92px -11px rgba(61,39,10,1);
-    -moz-box-shadow: inset 64px 0px 92px -11px rgba(61,39,10,1);
-    box-shadow: inset 64px 0px 92px -11px rgba(61,39,10,1);
+    -webkit-box-shadow: inset 126px 0px 93px -27px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 126px 0px 93px -27px rgba(0,0,0,0.75);
+    box-shadow: inset 126px 0px 93px -27px rgba(0,0,0,0.75);
 }
 
 
-section::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    right: -10.5%;
-    bottom: 60%;
-    border-right: 1px solid #fff;
-    z-index: 6;
-}
 
 .aboutUs-wrapper::after{
     content: '';
@@ -30,43 +20,10 @@ section::before{
     z-index: 2;
 }
 
-.aboutUs-wrapper{
-    width: 100%;
-    position: relative;
-    z-index: 3;
-    color: #FFFFFF;
-}
 
-.aboutUs-wrapper_title h1{
-    font-style: normal;
-    font-weight: 300;
-    font-size: 28px;
-    line-height: 31px;
-    display: flex;
-    align-items: center;
-    color: #FFFFFF;
-    max-width: 393px;
-    padding-bottom: 1rem;
-    z-index: 999;
-    position: relative;
-    margin-top: 10px;
-}
-
-.aboutUs-wrapper p{
-    font-style: normal;
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 16px;
-    display: flex;
-    align-items: center;
-    color: #FFFFFF;
-    z-index: 999;
-    width: 110%;
-    position: relative;
-}
 
 .aboutUs-menu{
-    margin-top: 7rem;
+    margin-top: 15%;
 }
 
 .aboutUs-menu ul li{
@@ -128,10 +85,9 @@ section::before{
     width: 100vw;
     height: 100vh;
     left: -100vw;
-    -webkit-transition: all 0.3s ease-in;
-    -webkit-box-shadow: inset 64px 0px 92px -11px rgba(61,39,10,1);
-    -moz-box-shadow: inset 64px 0px 92px -11px rgba(61,39,10,1);
-    box-shadow: inset 64px 0px 92px -11px rgba(61,39,10,1);
+    -webkit-box-shadow: inset 126px 0px 93px -27px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 126px 0px 93px -27px rgba(0,0,0,0.75);
+    box-shadow: inset 126px 0px 93px -27px rgba(0,0,0,0.75);
 }
 
 .trainers a:hover{

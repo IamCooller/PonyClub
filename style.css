@@ -7,8 +7,15 @@
 @import url("assets/css/citeStyle/ClubUs-main.css");
 @import url("assets/css/citeStyle/portfolio.css");
 @import url("assets/css/citeStyle/navbar.css");
+@import url("assets/css/citeStyle/equipment.css");
+@import url('assets/css/citeStyle/footer.css');
 
-
+.header-menu_top{
+  position: fixed;
+  top: 20px;
+  display: flex;
+  width: 100%;
+}
 
 #fp-nav ul li a.active span{
   background-color: #ffffff;
@@ -27,6 +34,18 @@
   margin-right: 10px;
   margin-top: 6px;
 }
+
+#fp-nav ul::before {
+  content: '';
+  position: absolute;
+  height: 10vh;
+  right: 14px;
+  bottom: 130px;
+  border-right: 1px solid #fff;
+  z-index: 6;
+  left: 0px;
+}
+
 
 
 body{
@@ -73,3 +92,4 @@ body{
   font-weight: 700;
   font-size: 32px;
 }
+

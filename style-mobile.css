@@ -1,0 +1,53 @@
+@import url("assets/css/citeStyle/normilaze.css");
+@import url('assets/css/citeStyle/mobile-index.css');
+@import url('assets/css/citeStyle/header-mobile.css');
+@import url('assets/css/citeStyle/stablemate-mobile.css');
+@import url('assets/css/citeStyle/equipment-mobile.css');
+@import url('assets/css/citeStyle/mobile-menu-header.css');
+@import url('assets/css/citeStyle/addresses-mobile.css');
+@import url('assets/css/citeStyle/trainers-mobile.css');
+body{
+    background-color: #C3A37A !important;
+}
+
+.displaynone{
+    display: none !important;
+  }
+  
+  .displayblock{
+    display: block !important;
+  }
+  
+  .close-menu{
+    position: relative;
+    right: -100vw !important;
+    -webkit-transition: all 0.3s ease-in;
+    display: none !important;
+  }
+  
+  .show-menu{
+    position: relative;
+    left: 0 !important;
+    display: block !important;
+    -webkit-transition: all 0.3s ease-in;
+  }
+  
+  .show-menu-flex{
+    position: relative;
+    left: 0 !important;
+    display: flex !important;
+    -webkit-transition: all 0.3s ease-in;
+  }
+
+  .close-left{
+    position: relative;
+    left: -100vw !important;
+    -webkit-transition: all 0.3s ease-in;
+    display: none !important;
+  }
+  
+  .close-top{
+    position: relative;
+    top: -100vw !important;
+    -webkit-transition: all 0.3s ease-in;
+  }

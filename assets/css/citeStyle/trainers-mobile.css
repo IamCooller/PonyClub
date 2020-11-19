@@ -1,0 +1,158 @@
+.trainers-mobile{
+    background: url('../../img/trainers-mobile-mk.png') no-repeat center;
+    background-size: 100% 100%;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    left: -100vw;
+    display: none;
+    position: relative;
+    -webkit-transition: all 1s ease-in;
+    z-index: 1;
+}
+
+.trainers-mobile::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.2);
+    z-index: 2;
+}
+
+.trainers-mobile .back{
+    position: relative;
+    z-index: 3;
+}
+
+.trainers-mobile span{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-align: left;
+    width: 100%;
+    margin-top: 10vh;
+    color: #FFFFFF;
+    position: relative;
+    margin-bottom: 4vh;
+    z-index: 3;
+}
+
+.trainers-mobile span::before{
+    content: '';
+    position: absolute;
+    border-bottom: 3px solid #FFFFFF;
+    width: 24vw;
+    left: -100px;
+    top: 14px;
+    z-index: 3;
+}
+
+.trainers-mobile ul{
+    padding: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: fit-content;
+    margin-top: 10vh;
+    z-index: 3;
+}
+
+.trainers-mobile ul li a{
+    font-style: normal;
+    font-weight: 300;
+    position: relative;
+    font-size: 20px;
+    line-height: 22px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 3vh;
+    z-index: 3;
+}
+
+.back-trainers{
+    padding-top: 2rem;
+    padding-left: 1rem;
+    margin-right: auto;
+    position: relative;
+    z-index: 3;
+    display: none;
+    left: -100vw;
+}
+
+.trainers-mobile-optional{
+    position: relative;
+    z-index: 3;
+}
+
+.trainers-mobile-optional h3{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 auto;
+    margin: 0 auto;
+    padding: 2vh 0;
+    width: fit-content;
+}
+
+.trainers-mobile-optional p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding: 0 2vw;
+}
+
+.trainers-mobile-optional img{
+    margin: 0 auto;
+    height: 100%;
+}
+
+.trainers-mobile-bk{
+    background-color: #C3A37A;
+    height: 100%;
+}
+
+.trainers-mobile-optional-img{
+    height: 50vh;
+}
+
+.trainers-mobile-photo-Jana,
+.trainers-mobile-wrapper-Jana,
+.trainers-mobile-photo-Nataly,
+.trainers-mobile-wrapper-Nataly,
+.trainers-mobile-photo-Mary,
+.trainers-mobile-wrapper-Mary,
+.trainers-mobile-photo-Valery,
+.trainers-mobile-wrapper-Valery,
+.trainers-mobile-photo-Dary,
+.trainers-mobile-wrapper-Dary,
+.trainers-mobile-photo-Olga,
+.trainers-mobile-wrapper-Olga,
+.trainers-mobile-photo-Kata,
+.trainers-mobile-wrapper-Kata{
+    display: none;
+    position: relative;
+    left: -100vw;
+    -webkit-transition: all 1s ease-in;
+}
