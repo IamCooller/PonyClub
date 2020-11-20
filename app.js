@@ -138,6 +138,7 @@ $(document).ready(function() {
 	  $('.portfolio').addClass("displaynone");
 	  $('#fp-nav').addClass("displaynone");
 	  $('.header-menu_top ').addClass("displaynone");
+	  $('.page-wrap ').addClass("displaynone");
 	});
 
 	$(".close").click(function() {
@@ -148,6 +149,7 @@ $(document).ready(function() {
 		$('.contacts').removeClass("displaynone");
 		$('.portfolio').removeClass("displaynone");
 		$('#fp-nav').removeClass("displaynone");
+		$('.page-wrap ').removeClass("displaynone");
 	  });
 
 	  
