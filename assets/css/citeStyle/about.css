@@ -2,9 +2,9 @@
     background: url("../../img/TwoSection.png") no-repeat center;
     background-size:100% 100%;
     position: relative;
-    -webkit-box-shadow: inset 126px 0px 93px -27px rgba(0,0,0,0.75);
-    -moz-box-shadow: inset 126px 0px 93px -27px rgba(0,0,0,0.75);
-    box-shadow: inset 126px 0px 93px -27px rgba(0,0,0,0.75);
+    -webkit-box-shadow: inset 200px 0px 110px -23px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 200px 0px 110px -23px rgba(0,0,0,0.75);
+    box-shadow: inset 200px 0px 110px -23px rgba(0,0,0,0.75);
 }
 
 

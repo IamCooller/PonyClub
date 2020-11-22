@@ -1221,7 +1221,8 @@ body.archive,
     .panel {
         height: 100vh;
         position: relative;
-        z-index: 10
+        z-index: 10;
+        box-shadow: none;
     }
 }
 

@@ -1,4 +1,7 @@
 jQuery(document).ready(function($) {
+	
+
+
 
     $('.menu-toggle').click(function () {
         if ($(window).width() < 992 && $(window).width() > $(window).height()) {
